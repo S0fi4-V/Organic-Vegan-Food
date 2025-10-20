@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Licorice&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<!--Encabezado-->
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-ghostwhite navbar-white">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img class="logo" src="assets/images/logo.png" alt="organic vegan food logo" class="logo me-3">
+      <a class="navbar-brand" href="#"></a>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Inicio
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+              <li><a class="dropdown-item" href="#">Misión y Visión</a></li>
+              <li><a class="dropdown-item" href="#">Testimonios de clientes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Paginas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Quines Somos</a></li>
+              <li><a class="dropdown-item" href="#">Nuestro equipo</a></li>
+              <li><a class="dropdown-item" href="#">Historia de la empresa</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Portafolio
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Nuestros Cultivos</a></li>
+              <li><a class="dropdown-item" href="#">Productos destacados</a></li>
+              <li><a class="dropdown-item" href="#">Certificaciones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Recetas orgánicas</a></li>
+              <li><a class="dropdown-item" href="#">Beneficios</a></li>
+              <li><a class="dropdown-item" href="#">Noticias del campo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tienda
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Frutas orgánicas</a></li>
+              <li><a class="dropdown-item" href="#">Verduras frescas</a></li>
+              <li><a class="dropdown-item" href="#">Ofertas y Descuentos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contacto
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Contactanos</a></li>
+              <li><a class="dropdown-item" href="#">Ubicación y horarios</a></li>
+              <li><a class="dropdown-item" href="#">Trabaja con nosotros</a></li>
+            </ul>
+          </li>
+          <div class="col-md-4 px-5">
+            <i class="bi bi-search px-5"></i>
+            <i class="bi bi-basket ps-2"></i>
+            <i class="bi bi-person-circle ps-5"></i>
+          </div>
+          <button type="button" class="btn btn-warning ms-3 ps-4" disabled>Consultas</button>
+          <i class="bi bi-grid-3x3-gap-fill ms-3 px-4"></i>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Galeria-->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <header class="inicio">
+          <div class="container">
+            <div class="row" id="titulo">
+              <div class="col-md-5">
+                <div class="inicio-titulo">
+                  <h5 style="font-family:Licorice; font-size: 20pt; color:rgb(162, 162, 1);">Bienvenido a Organic Vegan Food</h5>
+                  <h1 style="font-family: raleway, ital; font-size: 48px; ">Alimentos y bebidas orgánicas</h1>
+                  <p>25 años de experiencia en agricultura sostenible</p>
+                  <button type="button" class="btn btn-warning btn-sm me-3">Comprar ahora</button>
+                  <button type="button" class="btn btn-success btn-sm">Conocer más</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/slide2.jpg" class="d-block w-100" alt="frutas y verduras">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/slide3.jpg" class="d-block w-100" alt="platillos">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="intro">
+    <div class="container py-2">
+      <div class="row">
+        <div class="col-md">
+          <div class="info">
+            <h5 style="font-family:Licorice; font-size: 20pt; color:rgb(162, 162, 1);">Comidas y vegetales populares</h5>
+            <h2 style="font-family: raleway, ital; font-size: 30px; ">Frutas y Vegetales de calidad </h2>
+          </div>
+        </div>
+        <div class="col-md">
+          <p style="font-family: raleway, ital; font-size: 20px; ">Descubre el sabor auténtico y saludable de los productos cultivados sin químicos.
+            De nuestra tierra a tu mesa, cuidando tu bienestar y el del planeta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+  <section class="productos">
+    <div class="icono-container">
+      <div class="row">
+        <div class="mx-1 col-md text-center p-5">
+          <span class="icon material-symbols-outlined naranja" style="font-size: 48px;"">
+            nutrition
+          </span>
+          <h5 style="font-family: raleway, ital; font-size: 20px; color: rgba(32, 32, 32, 0.81);">Frutas orgánicas</h5>
+        </div>
+        <div class=" col-md text-center p-5">
+            <span class="icon material-symbols-outlined fs-3 text-success">
+              eco
+            </span>
+            <h5 style="font-family: raleway, ital; font-size: 20px; color: rgba(32, 32, 32, 0.81);">Verduras Frescas</h5>
+        </div>
+        <div class="col-md text-center p-5">
+          <span class="icon material-symbols-outlined pescado">
+            set_meal
+          </span>
+          <h5 style="font-family: raleway, ital; font-size: 20px; color: rgba(32, 32, 32, 0.81);">Pescado Fresco</h5>
+        </div>
+        <div class="col-md text-center p-5">
+          <span class="icon material-symbols-outlined pan">
+            bakery_dining
+          </span>
+          <h5 style="font-family: raleway, ital; font-size: 20px; color: rgba(32, 32, 32, 0.81);">Panadería Artesanal</h5>
+        </div>
+        <div class="col-md text-center p-5">
+          <span class="icon material-symbols-outlined huevo">
+            egg
+          </span>
+          <h5 style="font-family: raleway, ital; font-size: 20px; color: rgba(32, 32, 32, 0.81);">Huevos de Granja</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+  <section class="nosotros">
+    <div class="container">
+      <div class="row">
+        <div class="col-md agricultor ms-4">
+          <img src="assets/images/agricultor.jpg" class="agrimg-fluid mt-4 me-2 rounded-1 shadow-sm" alt="El agricultor"
+            width="300" height="300">
+        </div>
+        <div class="col-md me-5 mt-1">
+          <img src="assets/images/granja.jpg" class="rounded-1 shadow-sm" alt="La granja" width="300" height="200">
+          <img src="assets/images/manzanas.jpg" class="img-fluid rounded-1 shadow-sm my-3" alt="Manzanas" width="300"
+            height="300">
+        </div>
+        <div class="sobre col-md-5 py-3">
+          <h5 style="font-family:Licorice; font-size: 20pt; color:rgb(162, 162, 1);">Sobre Nosotros</h5>
+          <h3 style="font-family: raleway, ital; font-size: 40px; ">Organic Vegan Food</h3>
+          <p style="font-family: raleway, ital; font-size: 20px; ">En Organic Vegan food creemos que una buena alimentación comienza en la tierra.
+            Nuestro compromiso es ofrecerte productos frescos, libres de químicos y llenos de vida.</p>
+          <p style="font-family: raleway, ital; font-size: 12px; ">Agricultura orgánica y sustentable</p>
+          <hr>
+          <p style="font-family: raleway, ital; font-size: 15px; "><i>“Trabajamos con amor y respeto por la naturaleza, para nutrir tu cuerpo y cuidar nuestro planeta.”</i></p>
+          <div class="creador">
+            <img src="assets/images/creador.png" alt="Creador">
+            <p class="mb-5">Mariana López</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+
+  <div class="promo-container">
+    <div class="promo-card card-verde">
+      <div class="card-content">
+        <p class="descuento">35% de descuento</p>
+        <h3 class="titulo">Verduras Orgánicas</h3>
+        <p class="subtitulo">Los mejores alimentos para tu familia.</p>
+        <button type="button" class="btn btn-success btn-sm">Comprar ahora</button>
+      </div>
+      <img src="assets/images/verduras2.png" alt="Brócoli orgánico" class="product-img">
+    </div>
+
+    <div class="promo-card card-naranja">
+      <div class="card-content mx-1">
+        <p class="descuento">35% de descuento</p>
+        <h3 class="titulo">Frutas Orgánicas</h3>
+        <p class="subtitulo">Sabor natural directo del campo.</p>
+        <button type="button" id="btn-n" class="btn btn-secondary btn-sm">Comprar ahora</button>
+      </div>
+      <img src="assets/images/frutas.png" alt="Frutas orgánicas" class="product-img">
+    </div>
+
+    <div class="promo-card card-roja">
+      <div class="card-content">
+        <p class="descuento">35% de descuento</p>
+        <h3 class="titulo">Fresas Orgánicas</h3>
+        <p class="subtitulo">Endulza tus días de forma saludable.</p>
+        <button type="button" class="btn btn-danger btn-sm">Comprar ahora</button>
+      </div>
+      <img src="assets/images/fresas.png" alt="Fresas maduras" class="product-img">
+    </div>
+  </div>
+  <br>
+  <div class="ofertas me-5 mx-5 text-center py-5">
+    <h5 style="font-family:Licorice; font-size: 30pt; color:rgb(162, 162, 1);">Frutas y vegetales</h5>
+    <h3 style="font-family: raleway, ital; font-size: 40px;">Sección de productos destacados</h3>
+  </div>
+
+  <div class="container-productos py-5">
+    <div class="row">
+      <div class="col ms-5">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/zanahoria.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Zanahoria Orgánica</h5>
+            <p class="card-text">Crujiente, dulce y llena de vitaminas.</p>
+            <p><b>$85.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/fresaspro.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fresas Naturales</h5>
+            <p class="card-text">Recién cosechadas, perfectas para postres.</p>
+            <p><b>$100.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/naranjas.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Naranjas Dulces</h5>
+            <p class="card-text">Jugosas y ricas en vitamina C, sin semillas.</p>
+            <p><b>$63.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/brocoli.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Brócoli Orgánico</h5>
+            <p class="card-text">Ideal para tus platillos saludables y nutritivos.</p>
+            <p><b>$84.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col ms-5">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/Aguacate.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Aguacate Orgánico</h5>
+            <p class="card-text">Textura cremosa y sabor completamente natural.</p>
+            <p><b>$150.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/jitomate.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jitomate de Huerto</h5>
+            <p class="card-text">Madurado al sol, sin químicos ni pesticidas.</p>
+            <p><b>$74.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/elote amarillo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Elote Amarillo Dulce</h5>
+            <p class="card-text">Tierno, sabroso y lleno de energía. Directo del campo</p>
+            <p><b>$81.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/lechuga.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lechuga Romana Fresca</h5>
+            <p class="card-text">Crujiente y perfecta para ensaladas ligeras.</p>
+            <p><b>$47.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-2">
+      <div class="col ms-5">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/manzana.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Manzana Roja Orgánica</h5>
+            <p class="card-text">Naturalmente dulce, sin ceras ni químicos.</p>
+            <p><b>$70.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/huevo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Huevos de Gallina Libre</h5>
+            <p class="card-text">Ricos en proteínas y de sabor casero.</p>
+            <p><b>$86.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/miel.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Miel Pura de Abeja</h5>
+            <p class="card-text">100% natural, sin azúcar, ni aditivos. Recolectada de colmenas.</p>
+            <p><b>$102.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/pan integral.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pan Integral Artesanal</h5>
+            <p class="card-text">Elaborado con harina orgánica y semillas.</p>
+            <p><b>$79.00 MXN</b></p>
+            <a href="#" class="btn btn-success">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--<footer>
+        <p>Organic vegan food</p>
+        <p>Tu tienda de alimentos 100% orgánicos.</p>
+        <p>Copyright © 2025 Organic Vegan Food. Todos los derechos reservados.</p>
+        <p>Calle Verde #123, Ciudad Natural, México</p>
+        <p>Tel: (55) 1234 5678 | contacto@organicvfood.mx</p>
+        <p>&copy; 2025 Web Info de TI | Contacto: info@organicvfood.com.mx</p>
+    </footer>-->
+  <footer class="sitio-footer">
+    <div class="footer-container">
+
+      <div class="links">
+        <nav>
+          <h4 class="me-2">Navegación</h4>
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Productos Destacados</a></li>
+            <li><a href="">Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-social">
+        <img src="assets/images/logo.png" alt="Logo" class="footer-logo" height="200" width="200">
+        <div class="social-icons">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-contacto">
+        <h4>Contacto</h4>
+        <p>Email: contacto@organicvfood.mx</p>
+        <p>Tel: (55) 1234 5678 </p>
+        <p><a href="">Política de Privacidad</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Organic Vegan Food. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

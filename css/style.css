@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 60px;
+}
+
+#carouselExampleAutoplaying {
+   
+    max-height: 500px; 
+    overflow: hidden; 
+}
+
+.carousel-item.active .inicio {
+
+    height: 500px; 
+    width: 100%;
+
+    background-image: url('../images/slide1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-color: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    align-items: center; 
+}
+
+/*.inicio {
+   
+    background-image: url('../images/slide1.jpg');
+   height: 450px; 
+    object-fit: cover; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 450px;
+    object-position: center;
+
+}*/
+
+.text-center {
+    align-items: baseline;
+}
+
+.inicio-titulo {
+    justify-content: flex-end;
+    margin-top: 35%;
+}
+
+
+.nav {
+    height: 70px;
+}
+
+.intro {
+    align-items: flex-start;
+    margin-top: 200px;
+}
+
+.naranja {
+    color: #FF8C00;
+
+}
+
+.pescado {
+    color: rgb(81, 165, 204);
+}
+
+.pan {
+    color: rgb(92, 57, 28);
+}
+
+.huevo {
+    color: rgb(220, 213, 182);
+}
+
+.icon {
+    background-color: rgba(241, 241, 240, 0.797);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin: 0 auto 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-container span.material-symbols-outlined {
+    font-size: 3em !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.agricultor {
+    height: 20px;
+}
+
+.sobre hr {
+    color: green;
+    height: 2px;
+    width: 100%;
+    background-color: #676ba6;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.creador img {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.creador p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.promo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.promo-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+}
+
+.product-img {
+    max-height: 120%;
+    width: auto;
+    position: relative;
+    right: 0;
+    bottom: -15px;
+    z-index: 1;
+}
+
+.descuento {
+    font-size: 14px;
+    color: #9C896B;
+    font-weight: 600;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+
+.subtitulo {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 15px 0;
+}
+
+.card-verde {
+    background-color: rgb(203, 255, 203);
+}
+
+.card-naranja {
+    background-color: rgb(255, 232, 190);
+}
+
+.card-roja {
+    background-color: rgb(255, 194, 194);
+}
+
+#btn-n {
+    background-color: rgb(240, 115, 32);
+    border: #FF8C00;
+}
+
+.container-productos .card {
+    background-color: rgb(247, 245, 245);
+    border: none;
+}
+
+footer {
+    width: 100%;
+    background-color: #32323f;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.links nav ul li a {
+    text-decoration: none;
+    align-items: center;
+    color: rgb(218, 255, 195);
+}
+
+.links nav ul {
+    list-style: none;
+}
+
+.links nav h4 {
+    justify-content: center;
+}
+
+.footer-contacto p a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(217, 228, 155);
+}
+
+.fab {
+    color: white;
+    font-size: 1.6em;
+    display: inline;
+    margin: 0 10px;
+}
+
+.fab:hover {
+    color: rgb(172, 196, 255);
+}
+
+.carousel-item img {
+    height: 500px; /* Misma altura que el header del slide 1 */
+    object-fit: cover;
+}
+
+
+@media (max-width: 767.98px) {
+    
+    /* Ejemplo: Hacer el título más pequeño en móvil */
+    .inicio-titulo h1 {
+        font-size: 2em; 
+        line-height: 1.2;
+    }
+
+    .productos .material-symbols-outlined {
+        font-size: 38px !important; 
+    }
+    .productos .col-6 {
+        padding: 15px !important; 
+    }
+
+    img {
+    max-width: 100%; 
+    height: auto;    
+    display: block; 
+    }
+
+}
